@@ -1,11 +1,12 @@
 import React from 'react';
+import Page from './components/page';
 
 function App() {
   return (
     <>
-      <div>
-        hi
-      </div>
+      <body>
+        <Page />
+      </body>
     </>
   );
 }
